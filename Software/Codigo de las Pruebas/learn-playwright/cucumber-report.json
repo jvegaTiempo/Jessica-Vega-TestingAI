@@ -1,0 +1,175 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "pruebas-de-la-interfaz-de-usuario-de-quizapp;verificar-el-botón-de-inicio",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verificar el botón de inicio",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estoy en la página de la aplicación QuizApp",
+            "match": {
+              "location": "tests\\steps\\quizapp.step.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1122258699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "hago clic en el botón \"Empezar Estudio\"",
+            "match": {
+              "location": "tests\\steps\\quizapp.step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102792399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "debería ver el texto \"Modo Estudio - Pregunta 1/10\" como encabezado de la pagina principal de Preguntas",
+            "match": {
+              "location": "tests\\steps\\quizapp.step.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10618199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 241798499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pruebas-de-la-interfaz-de-usuario-de-quizapp;completar-un-campo-de-texto",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Completar un campo de texto",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que estoy en la página de la aplicación QuizApp",
+            "match": {
+              "location": "tests\\steps\\quizapp.step.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1083686199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "ingreso \"Mi respuesta\" en el campo con el placeholder \"Escribe tu respuesta\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "el campo con el placeholder \"Escribe tu respuesta\" debería contener \"Mi respuesta\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 228790399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pruebas-de-la-interfaz-de-usuario-de-quizapp;seleccionar-una-opción-de-un-menú-desplegable",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Seleccionar una opción de un menú desplegable",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que estoy en la página de la aplicación QuizApp",
+            "match": {
+              "location": "tests\\steps\\quizapp.step.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1087919500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "selecciono la opción \"Opción 1\" del menú desplegable \"Selecciona una opción\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "la opción seleccionada en el menú desplegable \"Selecciona una opción\" debería ser \"Opción 1\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 236525200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "pruebas-de-la-interfaz-de-usuario-de-quizapp",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pruebas de la interfaz de usuario de QuizApp",
+    "tags": [],
+    "uri": "tests\\features\\quizapp.feature"
+  }
+]
